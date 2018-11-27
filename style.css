@@ -1,0 +1,153 @@
+html,body{
+    overflow-x: hidden;
+}
+/* Extras */
+body{
+    height: 3100px;
+}
+.hvr-sweep-to-bottom::before{
+    border-radius: 5px;
+}
+.hvr-sweep-to-top::before{
+    border-radius: 5px;
+}
+/* Navbar */
+nav{
+    background: #212F3D;
+    height: 60px;
+}
+.nav-link{
+    color: #F0F3F4 !important;
+}
+.navbar-brand a{
+    color: #F0F3F4 !important;
+    text-decoration: none !important;
+}
+nav ul li{
+    padding: 0 20px;
+}
+/* Header */
+.header-img{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./pics/girl.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+.header-img h2,p{
+    text-align: center;
+}
+.header-img h2{
+    padding-top: 580px;
+    color: #F0F3F4;
+    font-size: 30px;
+    opacity: 0.7;
+}
+.header-img p{
+    color: #F0F3F4;
+    font-size: 25px;
+    opacity: 0.7;
+}
+/* Content */
+.mid-content{
+    margin-top: 50px;
+    height: 500px;
+}
+.mid-content h1,h4,p{
+    text-align: center;
+}
+.mid-content h1{
+    font-size: 45px;
+}
+.mid-content h4{
+    padding-top: 18px;
+    padding-bottom: 25px;
+}
+.mid-content p{
+    font-size: 20px;
+    text-align: start;
+    padding-bottom: 30px;
+}
+
+/* Sub-Content */
+.sub-content{
+    height: 900px;
+    background: #000000;
+    margin-top: 200px;
+}
+.sub-content h1{
+    text-align: center;
+    color: #F0F3F4;
+    padding-top: 70px;
+    font-size: 45px;
+}
+.sub-content p{
+    color: #F0F3F4;
+    font-size: 20px;
+}
+.ticks{
+    background: #F0F3F4;
+    height: 175px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.sept h5{
+    font-size: 15px;
+    padding: 3px;
+}
+.oct h5{
+    font-size: 15px;
+    padding: 3px;
+}
+.dec h5{
+    font-size: 15px;
+    padding: 3px;
+}
+.ticks span{
+    font-size: 13px;
+}
+.card{
+    margin-top: 45px;
+}
+.card h2{
+    text-align: center;
+    padding: 5px;
+}
+.card p{
+    color: #000000;
+    font-size: 20px;
+    padding: 5px;
+}
+.card small{
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+}
+.card .btn{
+    background: #B03A2E;
+    text-decoration: none;
+    color: #F0F3F4;
+}
+/* Late-Content */
+.late-content{
+    margin-top: 35px;
+}
+.late-content h1{
+    font-size: 45px;
+    color: #000000;
+}
+.late-content p{
+    color: #000000;
+    font-size: 25px;
+    opacity: 0.7;
+}
+.form-group button{
+    background: #B03A2E;
+    color: #F0F3F4;
+}
+/* Footer */
+.footer footer{
+    color: #000000;
+    margin-top: 130px;
+    text-align: center;
+    opacity: 0.9;
+}
