@@ -3,7 +3,7 @@ html,body{
 }
 /* Extras */
 body{
-    height: 3100px;
+    height: 100vh;
 }
 .hvr-sweep-to-bottom::before{
     border-radius: 5px;
